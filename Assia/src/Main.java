@@ -23,18 +23,31 @@ public class Main {
         if (document != null) {
             try {
                 document.emprunter();
+
                 System.out.println(
-                        "\nDocument emprunté : " + document.getTitre()
+                        "\nDocument emprunté : "
+                                + document.getTitre()
                 );
 
                 document.retourner();
+
                 System.out.println(
-                        "Document retourné : " + document.getTitre()
+                        "Document retourné : "
+                                + document.getTitre()
                 );
 
             } catch (DocumentIndisponibleException e) {
-                System.out.println("Erreur : " + e.getMessage());
+                System.out.println(
+                        "Erreur : " + e.getMessage()
+                );
             }
         }
+
+        StatistiquesBibliotheque statistiques =
+                new StatistiquesBibliotheque(bibliotheque);
+
+        statistiques.afficherNombreParCategorie();
+        statistiques.afficherDocumentPlusEmprunte();
+        statistiques.afficherDocumentsJamaisEmpruntes();
     }
 }

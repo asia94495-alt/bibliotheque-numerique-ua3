@@ -31,4 +31,8 @@ public class Bibliotheque {
     public int getNombreDocuments() {
         return documents.size();
     }
+
+    public ArrayList<Document> getDocuments() {
+        return new ArrayList<>(documents);
+    }
 }
