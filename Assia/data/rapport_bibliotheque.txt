@@ -1,0 +1,24 @@
+RAPPORT DE LA BIBLIOTHÈQUE
+==========================
+Nombre total de documents : 15
+Livres : 5
+Magazines : 5
+Livres audio : 5
+Nombre total d'emprunts : 1
+Document le plus emprunté : Le Petit Prince avec 1 emprunt(s)
+
+Documents jamais empruntés :
+- Les Miserables
+- L Etranger
+- Notre Dame de Paris
+- Le Tour du monde en quatre-vingts jours
+- Science et Vie
+- National Geographic
+- Quebec Science
+- Historia
+- Geo
+- Harry Potter
+- Le Comte de Monte Cristo
+- 1984
+- La Peste
+- Vingt mille lieues sous les mers
