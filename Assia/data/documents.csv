@@ -1,0 +1,17 @@
+type,id,titre,annee,detail
+LIVRE,L001,Le Petit Prince,1943,Antoine de Saint-Exupery
+LIVRE,L002,Les Miserables,1862,Victor Hugo
+LIVRE,L003,L Etranger,1942,Albert Camus
+LIVRE,L004,Notre Dame de Paris,1831,Victor Hugo
+LIVRE,L005,Le Tour du monde en quatre-vingts jours,1872,Jules Verne
+MAGAZINE,M001,Science et Vie,2026,1280
+MAGAZINE,M002,National Geographic,2025,245
+MAGAZINE,M003,Quebec Science,2026,410
+MAGAZINE,M004,Historia,2025,938
+MAGAZINE,M005,Geo,2026,551
+AUDIO,A001,Harry Potter,1997,480
+AUDIO,A002,Le Comte de Monte Cristo,1844,720
+AUDIO,A003,1984,1949,660
+AUDIO,A004,La Peste,1947,540
+AUDIO,A005,Vingt mille lieues sous les mers,1870,600
+LIVRE,L006,Document invalide,annee_invalide,Auteur Test

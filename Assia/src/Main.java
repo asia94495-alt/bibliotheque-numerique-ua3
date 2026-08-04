@@ -3,39 +3,18 @@ public class Main {
     public static void main(String[] args) {
 
         Bibliotheque bibliotheque = new Bibliotheque();
+        LecteurCSV lecteurCSV = new LecteurCSV();
 
-        bibliotheque.ajouterDocument(
-                new Livre(
-                        "L001",
-                        "Le Petit Prince",
-                        1943,
-                        "Antoine de Saint-Exupéry"
-                )
+        lecteurCSV.chargerDocuments(
+                "Assia/data/documents.csv",
+                bibliotheque
         );
 
-        bibliotheque.ajouterDocument(
-                new Magazine(
-                        "M001",
-                        "Science et Vie",
-                        2026,
-                        1280
-                )
-        );
-
-        bibliotheque.ajouterDocument(
-                new LivreAudio(
-                        "A001",
-                        "L'Étranger",
-                        1942,
-                        180
-                )
-        );
-
-        System.out.println("Documents de la bibliothèque :");
+        System.out.println("\nDocuments de la bibliothèque :");
         bibliotheque.afficherDocuments();
 
         System.out.println(
-                "\nNombre total de documents : "
+                "\nNombre total de documents valides : "
                         + bibliotheque.getNombreDocuments()
         );
 
@@ -45,7 +24,7 @@ public class Main {
             try {
                 document.emprunter();
                 System.out.println(
-                        "Document emprunté : " + document.getTitre()
+                        "\nDocument emprunté : " + document.getTitre()
                 );
 
                 document.retourner();
