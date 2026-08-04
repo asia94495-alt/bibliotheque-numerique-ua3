@@ -1,0 +1,12 @@
+Assia Benmazouz
+
+- Création de la hiérarchie des documents : Document, Livre, Magazine et LivreAudio.
+- Création de l’interface Empruntable.
+- Gestion des emprunts et des retours.
+- Création des exceptions personnalisées.
+- Création et lecture du fichier CSV.
+- Validation des données invalides.
+- Gestion de la bibliothèque et recherche par identifiant.
+- Calcul et affichage des statistiques.
+- Génération du rapport TXT.
+- Tests et documentation du projet.
