@@ -49,5 +49,13 @@ public class Main {
         statistiques.afficherNombreParCategorie();
         statistiques.afficherDocumentPlusEmprunte();
         statistiques.afficherDocumentsJamaisEmpruntes();
+
+        GenerateurRapport generateurRapport =
+                new GenerateurRapport();
+
+        generateurRapport.genererRapport(
+                bibliotheque,
+                "Assia/data/rapport_bibliotheque.txt"
+        );
     }
 }
